@@ -68,3 +68,21 @@ header ul .rounded-circle {
     height: 1.7em;
     width: 1.7em;
 }
+
+aside, section {
+    border: 2px solid #ff0000;
+}
+
+/* SIDE MENU STARTS */
+
+aside {
+    display: inline-block;
+    width: 30%;
+}
+
+/* SECTION BODY STARTS */
+
+section {
+    display: inline-block;
+    width: 70%;
+}
