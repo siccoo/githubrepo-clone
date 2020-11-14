@@ -23,8 +23,7 @@ header {
 
 .github-logo {
     fill: #fff;
-    margin-left: 0.5em;
-    width: 4rem;
+    margin-left: 0.8em;
 }
 
 header input {
@@ -39,7 +38,7 @@ header input {
 }
 
 header nav:nth-of-type(1) {
-    width: 72%;
+    width: 67%;
 }
 
 header ul {
@@ -63,30 +62,77 @@ header ul .navigation-item:hover {
     color: #c7c8c9;
 }
 
+header ul .profile-account {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.bell {
+    fill: #fff;
+    margin-left: 0.5em;
+}
+
+.plus {
+    fill: #fff;
+    margin-left: 0.5em;
+}
+
+.dropdown {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right: 4px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 4px solid transparent;
+    margin-bottom: 0.5rem;
+}
+
+.dropdown-profile {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right: 4px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 4px solid transparent;
+    margin-bottom: 0.9rem;
+}
+
 header ul .rounded-circle {
     border-radius: 50%;
     height: 1.3em;
     width: 1.3em;
+    /* margin-left: 0.5em; */
 }
 
-aside, section {
-    outline: 2px solid #ff0000;
+main {
+    display: flex;
+
 }
 
 /* SIDE MENU STARTS */
 
-aside {
+main aside {
     display: inline-block;
     width: 30%;
 }
 
 div .profile-image {
     border-radius: 50%;
+    width: 80%;
+    padding: 1.5em;
 }
 
 /* SECTION BODY STARTS */
 
-section {
+main section {
     display: inline-block;
     width: 70%;
 }
