@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: scroll;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.1em;
+}
+
+header {
+    background: #202529;
+    color: #fff;
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    display: inline-block;
+}
