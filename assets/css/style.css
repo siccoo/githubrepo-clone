@@ -19,6 +19,11 @@ header {
     align-items: center;
 }
 
+.github-logo {
+    fill: #fff;
+}
+
 header ul li {
     display: inline-block;
+    margin: 0.5em;
 }
