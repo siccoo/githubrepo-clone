@@ -47,3 +47,8 @@ header ul .navigation-item:hover {
     color: #c7c8c9;
 }
 
+header ul .rounded-circle {
+    border-radius: 50%;
+    height: 1.7em;
+    width: 1.7em;
+}
