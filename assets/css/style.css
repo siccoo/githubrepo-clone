@@ -14,7 +14,7 @@ body {
 header {
     background: #202529;
     color: #fff;
-    height: 9%;
+    height: 10%;
     display: flex;
     align-items: center;
     padding: 0.5em;
@@ -80,8 +80,8 @@ aside {
     width: 30%;
 }
 
-aside .profile-image {
-    width: 10%;
+div .profile-image {
+    border-radius: 50%;
 }
 
 /* SECTION BODY STARTS */
