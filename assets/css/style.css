@@ -18,11 +18,13 @@ header {
     display: flex;
     align-items: center;
     padding: 0.5em;
+    width: 100%;
 }
 
 .github-logo {
     fill: #fff;
     margin-left: 0.5em;
+    width: 4rem;
 }
 
 header input {
@@ -31,10 +33,18 @@ header input {
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding: 0.3em;
-    outline: none;
     border: 0px none;
     border-radius: 0.2em;
     color: #fff !important;
+}
+
+header nav:nth-of-type(1) {
+    width: 72%;
+}
+
+header ul {
+    display: flex;
+    width: 100%;
 }
 
 header ul li {
