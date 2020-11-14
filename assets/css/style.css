@@ -17,13 +17,33 @@ header {
     height: 9%;
     display: flex;
     align-items: center;
+    padding: 0.5em;
 }
 
 .github-logo {
     fill: #fff;
+    margin-left: 0.5em;
+}
+
+header input {
+    font-size: 0.9em;
+    background: #3c4044;
+    margin-right: 0.5em;
 }
 
 header ul li {
+    list-style: none;
+}
+
+header ul .navigation-item {
     display: inline-block;
     margin: 0.5em;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.82em;
 }
+
+header ul .navigation-item:hover {
+    color: #c7c8c9;
+}
+
