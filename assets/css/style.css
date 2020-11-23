@@ -24,21 +24,62 @@ header {
 .github-logo {
     fill: #fff;
     margin-left: 0.8em;
+    margin-right: 0.8em;
 }
 
 header input {
-    font-size: 0.85em;
-    background: #3c4044;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding: 0.3em;
-    border: 0px none;
-    border-radius: 0.2em;
-    color: #fff !important;
+  outline: none;
+}
+
+header input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 50%;
+}
+
+header input::-webkit-search-decoration,
+header input::-webkit-search-cancel-button {
+  display: none;
+}
+
+header input[type="search"] {
+  background: #24292e url(search-key-slash.svg) no-repeat 245px center;
+  font-size: inherit;
+  font-weight: 400;
+  color: white;
+  border: 1px solid #444d56;
+  box-shadow: none;
+  padding: 9px 10px 9px 10px;
+  width: 250px;
+  height: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header input[type="search"]:focus {
+  width: 450px;
+  background: #fafbfc url(search-key-slash.svg) no-repeat 495px center;
+  background-color: #fafbfc;
+  border-color: #e1e4e8;
+  color: black;
+}
+
+header input:-moz-placeholder {
+  color: #999;
+}
+
+header input::-webkit-input-placeholder {
+  color: #999;
 }
 
 header nav:nth-of-type(1) {
-    width: 67%;
+    width: 50%;
 }
 
 header ul {
@@ -122,6 +163,7 @@ main {
 main aside {
     display: inline-block;
     width: 30%;
+    padding: 1em;
 }
 
 div .profile-image {
@@ -130,9 +172,14 @@ div .profile-image {
     padding: 1.5em;
 }
 
+.profile .username {
+  color:  #655f5c;  
+}
+
 /* SECTION BODY STARTS */
 
 main section {
     display: inline-block;
     width: 70%;
 }
+
